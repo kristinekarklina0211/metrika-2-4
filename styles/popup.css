@@ -3,6 +3,8 @@
 }
 
 .pop-up {
+  z-index: 100;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -166,6 +168,8 @@
 
         font-size: 18px;
         letter-spacing: -0.54px;
+
+        box-shadow: none;
       }
       
       .pop-up__close-btn {
