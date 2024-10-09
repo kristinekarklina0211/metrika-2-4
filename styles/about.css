@@ -22,12 +22,12 @@
   border: 1px solid #ad1818;
   border-radius: 5px;
 
+  color: #FFF;
   font-size: 20px;
-  line-height: 27px;
+  line-height: normal;
   letter-spacing: -0.6px;
 
   text-decoration: none;
-  color: #fff;
 }
 
 .about__btn:hover {
@@ -64,7 +64,6 @@
 
   .about__btn {
     padding: 15px 30px;
-    height: 51px;
 
     border-radius: 3.8px;
 
