@@ -1,0 +1,177 @@
+.services {
+  background-color: #121212;
+  color: #fff;
+}
+
+.services__inner {
+  padding-top: 151px;
+  padding-bottom: 150px;
+}
+
+.services__title {
+  margin-left: 2px;
+}
+
+.services__box-wrapper {
+  margin-bottom: 104px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 81px;
+}
+
+.services__box {
+  position: relative;
+  width: calc(50% - 5.5px);
+}
+
+.services__image {
+  margin-bottom: 25px;
+
+  width: 569px;
+  height: 388px;
+}
+
+.services__price-wrapper {
+  position: absolute;
+  top: 31.51px;
+  left: 30px;
+}
+
+.services__price-box {
+  display: inline-block;
+  padding: 5px 22px 5px 20px;
+
+  background-color: #ad1818;
+  border-radius: 5px;
+}
+
+.services__price-text {
+  font-size: 22px;
+  line-height: normal;
+  letter-spacing: -0.66px;
+}
+
+.services__subtitle {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.services__btn {
+  width: 100%;
+  padding: 56px 0;
+
+  cursor: pointer;
+
+  background-color: #ad1818;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.services__btn:hover {
+  background-color: #fff;
+  color: #ad1818;
+}
+
+@media (max-width: 1199px) {
+  .services__inner {
+    padding-bottom: 120px;
+  }
+
+  .services__box-wrapper {
+    margin-bottom: 80px;
+
+    row-gap: 80px;
+  }
+
+  .services__box {
+    width: calc(50% - 5px);
+  }
+
+  .services__image {
+    margin-bottom: 15px;
+
+    width: 100%;
+    height: 315px;
+  }
+
+  .services__price-wrapper {
+    top: 31px;
+    left: 32px;
+  }
+
+  .services__price-box {
+    padding: 7px 26px 6px 27px;
+  }
+
+  .services__price-text {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+
+  .services__subtitle {
+    font-size: 25px;
+    letter-spacing: -0.75px;
+  }
+
+  .services__btn {
+    padding: 57px 0 55px 0;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .services__inner {
+    padding-bottom: 80px;
+  }
+
+  .services__box-wrapper {
+    margin-bottom: 60px;
+
+    row-gap: 60px;
+  }
+
+  .services__box {
+    width: 100%;
+  }
+
+  .services__image {
+    margin-bottom: 10px;
+
+    width: 100%;
+    height: 240px;
+  }
+
+  .services__price-wrapper {
+    top: 23px;
+    left: 24px;
+  }
+
+  .services__price-box {
+    padding: 5px 23px 6px 24px;
+  }
+
+  .services__price-text {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .services__subtitle {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+  }
+
+  .services__btn {
+    padding: 37px 0 36px 0;
+  }
+}
