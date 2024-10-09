@@ -169,7 +169,7 @@
         font-size: 18px;
         letter-spacing: -0.54px;
 
-        box-shadow: none;
+        -webkit-appearance: none;
       }
       
       .pop-up__close-btn {
