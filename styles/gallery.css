@@ -39,7 +39,7 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50%;
 }
 
 .gallery__box-forest {
@@ -94,7 +94,7 @@
     background-image: url(../resources/gallery-arrow-prev.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 50%;
 
     cursor: pointer;
 }
@@ -111,7 +111,7 @@
     transform: rotate(180deg);
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
 
     .gallery__title-wrapper,
     .gallery__text-wrapper,

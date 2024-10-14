@@ -1,4 +1,4 @@
-.contacts__inner {
+.contacts {
   padding: 150px 0;
 }
 
@@ -68,7 +68,7 @@
   text-underline-offset: 15px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .contacts__inner {
     padding: 120px 0;
   }

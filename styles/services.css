@@ -1,11 +1,9 @@
 .services {
-  background-color: #121212;
-  color: #fff;
-}
-
-.services__inner {
   padding-top: 151px;
   padding-bottom: 150px;
+  
+  background-color: #121212;
+  color: #fff;
 }
 
 .services__title {
@@ -31,6 +29,8 @@
 
   width: 569px;
   height: 388px;
+
+  object-fit: cover;
 }
 
 .services__price-wrapper {
@@ -59,30 +59,7 @@
   letter-spacing: -0.9px;
 }
 
-.services__btn {
-  width: 100%;
-  padding: 56px 0;
-
-  cursor: pointer;
-
-  background-color: #ad1818;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
-
-  color: #fff;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.9px;
-}
-
-.services__btn:hover {
-  background-color: #fff;
-  color: #ad1818;
-}
-
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .services__inner {
     padding-bottom: 120px;
   }
@@ -122,13 +99,7 @@
     font-size: 25px;
     letter-spacing: -0.75px;
   }
-
-  .services__btn {
-    padding: 57px 0 55px 0;
-  }
 }
-
-
 
 @media (max-width: 767px) {
   .services__inner {
@@ -169,9 +140,5 @@
   .services__subtitle {
     font-size: 18px;
     letter-spacing: -0.54px;
-  }
-
-  .services__btn {
-    padding: 37px 0 36px 0;
   }
 }

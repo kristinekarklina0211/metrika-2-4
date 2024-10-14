@@ -13,29 +13,7 @@
   letter-spacing: -1.35px;
 }
 
-.about__btn {
-  display: inline-block;
-
-  padding: 20px 40px;
-
-  background-color: #ad1818;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
-
-  color: #FFF;
-  font-size: 20px;
-  line-height: normal;
-  letter-spacing: -0.6px;
-
-  text-decoration: none;
-}
-
-.about__btn:hover {
-  background-color: #fff;
-  color: #ad1818;
-}
-
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   .about {
     margin-bottom: 120px;
   }
@@ -60,15 +38,5 @@
 
     font-size: 22px;
     letter-spacing: -0.66px;
-  }
-
-  .about__btn {
-    padding: 15px 30px;
-
-    border-radius: 3.8px;
-
-    font-size: 16px;
-    line-height: normal;
-    letter-spacing: -0.48px;
   }
 }

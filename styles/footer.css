@@ -1,19 +1,19 @@
 .footer {
+  padding: 60px 0 30px 0;
   background-color: #121212;
 }
 
 .footer__inner {
-  padding: 60px 0 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 87px;
+  gap: 87px;
 }
 
 .footer__nav {
   display: flex;
   justify-content: space-between;
-  width: 450px;
+  gap: 55px;
 }
 
 .footer__nav-link {
@@ -44,11 +44,11 @@
 @media (max-width: 767px) {
   .footer__inner {
     padding: 30px 0 26px 0;
-    row-gap: 41px;
+    gap: 41px;
   }
   
   .footer__nav {
-    width: 281px;
+    gap: 30px;
   }
   
   .footer__nav-link {
