@@ -103,6 +103,7 @@
 
 @media (max-width: 767px) {
   .services {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
