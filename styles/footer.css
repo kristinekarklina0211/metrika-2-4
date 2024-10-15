@@ -42,8 +42,11 @@
 }
 
 @media (max-width: 767px) {
-  .footer__inner {
+  .footer {
     padding: 30px 0 26px 0;
+  }
+
+  .footer__inner {
     gap: 41px;
   }
   

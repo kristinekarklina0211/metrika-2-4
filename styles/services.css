@@ -60,7 +60,7 @@
 }
 
 @media (max-width: 961px) {
-  .services__inner {
+  .services {
     padding-bottom: 120px;
   }
 
@@ -102,7 +102,7 @@
 }
 
 @media (max-width: 767px) {
-  .services__inner {
+  .services {
     padding-bottom: 80px;
   }
 

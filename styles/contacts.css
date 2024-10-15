@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 961px) {
-  .contacts__inner {
+  .contacts {
     padding: 120px 0;
   }
   
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 767px) {
-  .contacts__inner {
+  .contacts {
     padding: 80px 0;
   }
   

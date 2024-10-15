@@ -39,7 +39,7 @@
 
 @media (max-width: 961px) {
   
-  .reviews__inner {
+  .reviews {
     padding: 120px 0;
   }
 
@@ -67,7 +67,7 @@
 }
 
 @media (max-width: 767px) {
-  .reviews__inner {
+  .reviews {
     padding: 80px 0;
   }
 
